@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Vazir.woff2") format("woff2"),
+        url("../fonts/Vazir.woff") format("woff"),
+        url("../fonts/Vazir.ttf") format("truetype");
+    /* Safari, Android, iOS */
+}
+
+body {
+    font-family: "Vazir" !important;
+}
+
+.styleborder {
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+}
+
+.styleborder:hover {
+    background-color: rgb(255, 246, 246);
+}
+
+.person-btn {
+    padding: 0 !important;
+    display: flex;
+    white-space: normal !important;
+}
+
+.fontsize-vorodyasabtnam {
+    font-size: 0.75rem !important;
+}
+
+.eshterak-tajrobeh {
+    padding: 0.5rem !important;
+    font-size: 0.90rem !important;
+}
+
+.navbar-toggler-icon {
+    border-radius: 50% !important;
+    border-color: transparent !important;
+}
+
+.img-logo {
+    position: relative;
+}
+
+.tajrobehaye-safar-text {
+    font-size: 0.80rem !important;
+    position: absolute !important;
+    left: 0rem;
+    top: 1.2rem;
+}
+
+.social-icons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 20rem;
+}
+
+@media screen and (min-width: 576px) {
+    .navbar-toggler:hover {
+        background-color: rgb(240, 240, 240);
+    }
+
+    .navbar-toggler {
+        border-radius: 50% !important;
+        border-color: transparent !important;
+        transition: all 0.2s linear !important;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+    
+}
+
+.main-picture {
+    margin-top: 5rem !important;
+    position: relative;
+}
+
+.banner-img {
+    min-height: 75vh;
+}
+
+.main-text-forPic {
+    position: absolute !important;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.search-btn {
+    /* padding: 0.5rem 0 !important; */
+    height: 3.6rem;
+}
+
+.links {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 300px) {
+    .main-text-forPic h2 {
+            font-size: 0.5rem;
+        }
+}
+
+/* ----------- article 1: ----------- */
+
+/* .primary-collection[data-v-60cfc602] {
+    margin-bottom: 4.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+} */
+
+.list-unstyled a {
+    color: rgb(29, 28, 28);
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.minilist a {
+    font-size: 0.80rem;
+    color: rgb(51, 51, 51);
+}
